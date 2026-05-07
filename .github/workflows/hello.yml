@@ -6,6 +6,8 @@ on:
     types: [opened, edited]
 
 jobs:
+
+
   greet:
     env:
       MY_ENV: "John Doe"

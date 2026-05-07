@@ -8,6 +8,13 @@ export default defineConfig({
   server: {
     port: 4000,
   },
+  coverage: {
+  reporter: ["text", "json", "json-summary"],
+  lines: 100,
+  branches: 100,
+  functions: 100,
+  statements: 100
+},
   build: {
     commonjsOptions: {
       transformMixedEsModules: true,
